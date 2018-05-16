@@ -1,3 +1,4 @@
+library("sva")
 setwd("D:\\Ziyi\\School\\PMO\\metanalysis\\Simulation\\combine\\data")
 
 data1<-read.table("Dataset1_series_matrix.txt",sep="\t",header=T,row.names=1)
